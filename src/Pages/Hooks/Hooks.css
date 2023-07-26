@@ -1,0 +1,17 @@
+.state{
+    border: 2px solid black;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+.statebtn{
+    margin: auto;
+    width: fit-content;
+}
+.statehead{
+    text-align: center;
+}
+.statetxt{
+    width: 90%;
+    margin-left: 100px;
+}
