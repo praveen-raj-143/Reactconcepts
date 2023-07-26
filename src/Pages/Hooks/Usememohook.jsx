@@ -1,11 +1,11 @@
-import React, { useMemo, useState } from 'react'
+import React, { useState } from 'react'
 
 const Usememohook = () => {
     const [increment,setIncrement]=useState(0);
     const [number,setNumber]=useState(1);
-    useMemo(()=>{
-        console.log("memo called")
-    },[number])
+    // useMemo(()=>{
+    //     console.log("memo called")
+    // },[number])
   return (
     <div>
         <h1 className='statehead'>UseMemo Hook</h1>
